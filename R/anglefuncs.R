@@ -2,8 +2,8 @@
 hypotenuse <- function(opposite, adjacent){ sqrt(opposite^2 + adjacent^2)}
 
 theta <- function(opposite, adjacent){
-  opp <- y
-  hyp <- hypotenuse(x,y)
+  opp <- opposite
+  hyp <- hypotenuse(opposite, adjacent)
   theta <- asin(opp/hyp)
 
   return(theta)

@@ -1,0 +1,12 @@
+Package: angler
+Type: Package
+Title: Calculate Right Triangle Interior Angle
+Version: 0.1.0
+Author: Caroline E. Walters
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: For right-angled triangles in Euclidean space, this package 
+             computes the two unknown insterior angles of the triangle from the
+             lengths of the two shortest sides. 
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true

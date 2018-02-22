@@ -14,6 +14,8 @@
 
 hypotenuse <- function(opposite, adjacent){ sqrt(opposite^2 + adjacent^2)}
 
+#' Find theta.
+#'
 #' Find the angle between adjacent and hypotenuse of a right-angled triangle in
 #' Euclidean space.
 #' @param opposite A number.
@@ -31,7 +33,8 @@ theta <- function(opposite, adjacent){
   return(theta)
 }
 
-
+#' Find phi.
+#'
 #' Find the angle between opposite and hypotenuse of a right-angled triangle in
 #' Euclidean space.
 #' @param opposite A number.

@@ -2,8 +2,7 @@
 % Please edit documentation in R/anglefuncs.R
 \name{theta}
 \alias{theta}
-\title{Find the angle between adjacent and hypotenuse of a right-angled triangle in
-Euclidean space.}
+\title{Find theta.}
 \usage{
 theta(opposite, adjacent)
 }

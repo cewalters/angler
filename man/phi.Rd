@@ -2,8 +2,7 @@
 % Please edit documentation in R/anglefuncs.R
 \name{phi}
 \alias{phi}
-\title{Find the angle between opposite and hypotenuse of a right-angled triangle in
-Euclidean space.}
+\title{Find phi.}
 \usage{
 phi(opposite, adjacent)
 }

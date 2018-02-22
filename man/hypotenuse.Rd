@@ -22,4 +22,5 @@ other two sides.
 \examples{
 hypotenuse(1, 1)
 hypotenuse(10, 1)
+
 }

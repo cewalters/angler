@@ -10,6 +10,8 @@
 #' @examples
 #' hypotenuse(1, 1)
 #' hypotenuse(10, 1)
+#'
+#' @export
 
 
 hypotenuse <- function(opposite, adjacent){ sqrt(opposite^2 + adjacent^2)}

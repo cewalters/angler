@@ -1,5 +1,6 @@
 
-
+#' Find the hypotenuse.
+#'
 #' Find the hypotenuse of a right-angled triangle in Euclidean space from the
 #' other two sides.
 #' @param opposite A number.

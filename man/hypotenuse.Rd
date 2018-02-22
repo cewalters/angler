@@ -2,8 +2,7 @@
 % Please edit documentation in R/anglefuncs.R
 \name{hypotenuse}
 \alias{hypotenuse}
-\title{Find the hypotenuse of a right-angled triangle in Euclidean space from the
-other two sides.}
+\title{Find the hypotenuse.}
 \usage{
 hypotenuse(opposite, adjacent)
 }

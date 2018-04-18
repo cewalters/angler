@@ -14,7 +14,11 @@
 #' @export
 
 
-hypotenuse <- function(opposite, adjacent){ sqrt(opposite^2 + adjacent^2)}
+hypotenuse <- function(opposite, adjacent){
+  assert_length(opposite)
+  assert_length(adjacent)
+  sqrt(opposite^2 + adjacent^2)
+  }
 
 #' Find theta.
 #'
@@ -49,3 +53,5 @@ theta <- function(opposite, adjacent){
 phi <- function(opposite, adjacent){
   pi/2 - theta(opposite, adjacent)
 }
+
+

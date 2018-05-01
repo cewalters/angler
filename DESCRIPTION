@@ -7,7 +7,7 @@ Maintainer: The package maintainer <yourself@somewhere.net>
 Description: For right-angled triangles in Euclidean space, this package 
              computes the two unknown insterior angles of the triangle from the
              lengths of the two shortest sides. 
-License: What license is it under?
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.0.1

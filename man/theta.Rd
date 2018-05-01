@@ -21,4 +21,5 @@ Euclidean space.
 \examples{
 theta(1, 1)
 theta(10, 1)
+
 }

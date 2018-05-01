@@ -30,6 +30,8 @@ hypotenuse <- function(opposite, adjacent){
 #' @examples
 #' theta(1, 1)
 #' theta(10, 1)
+#'
+#' @export
 
 theta <- function(opposite, adjacent){
   opp <- opposite
@@ -49,6 +51,8 @@ theta <- function(opposite, adjacent){
 #' @examples
 #' phi(1, 1)
 #' phi(10, 1)
+#'
+#' @export
 
 phi <- function(opposite, adjacent){
   pi/2 - theta(opposite, adjacent)

@@ -21,4 +21,5 @@ Euclidean space.
 \examples{
 phi(1, 1)
 phi(10, 1)
+
 }
